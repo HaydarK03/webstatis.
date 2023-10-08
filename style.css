@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(71, 92, 92);
+    margin-left: 4rem;
+}
+
+.heading{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.desc{
+    margin-bottom: 3rem;
+}
+
+table, th, tr, td{
+    border: 1px rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-align: left;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(107, 137, 137);
+}   
